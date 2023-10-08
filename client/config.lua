@@ -43,15 +43,15 @@ local BASE_CONTROL_SETTINGS = protect({
 
 local BASE_CAMERA_SETTINGS = protect({
   --Camera
-  FOV = 45.0,
+  FOV = 90.0,
 
   -- On enable/disable
   ENABLE_EASING = true,
-  EASING_DURATION = 1000,
+  EASING_DURATION = 250,
 
   -- Keep position/rotation
-  KEEP_POSITION = false,
-  KEEP_ROTATION = false
+  KEEP_POSITION = true,
+  KEEP_ROTATION = true
 })
 
 --------------------------------------------------------------------------------
